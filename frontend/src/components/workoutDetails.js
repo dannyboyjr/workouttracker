@@ -20,7 +20,7 @@ const WorkoutDetails = ({workout}) => {
 return(
     <div className="workout-details">
         <h4>{workout.title}</h4>
-        <p><strong>Load (kg): </strong>{workout.load}</p>
+        <p><strong>weight (lbs): </strong>{workout.load}</p>
         <p><strong>Reps: </strong>{workout.reps}</p>
         <p>{formateDistanceToNow(new Date(workout.createdAt), {addSuffix: true})}</p>
         <span className="material-symbols-outlined" onClick={handleClick}>delete</span>
