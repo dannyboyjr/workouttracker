@@ -35,8 +35,8 @@ header a {
 /* homepage */
 .home {
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  gap: 100px;
+  grid-template-columns: 2fr 1fr;
+  gap: 65px;
 }
 .workout-details {
   background: #fff;
@@ -68,8 +68,13 @@ header a {
 }
 
 /* new workout form */
+
+form {
+  margin-right: 40px;
+}
 label, input {
   display: block;
+
 }
 input {
   padding: 10px;
